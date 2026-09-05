@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-// dev vals for scenario overrides
+// dev vals for initial setup
 const DEFAULT_IRON_ORE = 104
 const DEFAULT_PORT_WAIT = 4.5
 
