@@ -53,7 +53,7 @@ export default function App() {
 
       {/* Page content */}
       {currentPage === 'forecast' && <Forecast apiBase={API_BASE} />}
-      {currentPage === 'explainability' && <Explainability />}
+      {currentPage === 'explainability' && <Explainability apiBase={API_BASE} />}
     </div>
   )
 }
