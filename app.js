@@ -69,7 +69,7 @@ async function runForecast() {
 // Fill in the output section using response field names
 // from BACKEND_API_DOCUMENTATION.md, section 5.2 example response
 function renderForecastResult(data) {
-  document.getElementById("output-section").style.display = "block";
+  document.getElementById("output-selection").style.display = "block";
 
   const rec = data.recommendation || {};
   document.getElementById("action-text").textContent = rec.action || "--";
