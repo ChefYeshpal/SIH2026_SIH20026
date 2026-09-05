@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+select, input[type="range"] {
+  width: 100%;
+}
+
+button {
+  padding: 8px 16px;
+}
+
+#forecast-error {
+  color: red;
+}
+
+pre {
+  background: #f0f0f0;
+  padding: 10px;
+  overflow-x: auto;
+  font-size: 12px;
+}
